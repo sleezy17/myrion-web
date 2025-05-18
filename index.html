@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Myrion - Instalocker & Spoof</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: #0d001a;
+      font-family: 'Orbitron', sans-serif;
+      color: #d4aaff;
+      margin: 0;
+    }
+    header, footer {
+      background: #1c0033;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(255, 0, 255, 0.2);
+    }
+    .logo {
+      font-size: 28px;
+      animation: glow 2s infinite alternate;
+    }
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+    }
+    .hero, .product-section, .payment-section, .reviews-section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .hero {
+      background: linear-gradient(135deg, #4c0080, #9900cc);
+      color: #fff;
+    }
+    .product-section {
+      background: #160028;
+    }
+    .card {
+      background: #24003d;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(212, 170, 255, 0.4);
+      display: inline-block;
+      margin: 15px;
+    }
+    .buy-button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #d4aaff;
+      color: #1b0033;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .buy-button:hover {
+      background: #e8ccff;
+    }
+    footer p {
+      color: #ccc;
+    }
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #d4aaff; }
+      to { text-shadow: 0 0 20px #e0cfff; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="logo">MYRION</h1>
+    <nav>
+      <a href="#instalocker">Instalocker</a>
+      <a href="#spoof">Spoof</a>
+      <a href="#payment">Pagos</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Bienvenido a Myrion</h2>
+    <p>Soluciones avanzadas para seguridad y anonimato.</p>
+  </section>
+
+  <section id="instalocker" class="product-section">
+    <h2>Instalocker</h2>
+    <p class="price">Precio: <strong>1€</strong></p>
+    <p>Nuestro exclusivo locker listo para instalación instantánea.</p>
+    <a class="buy-button" href="instalocker.html" target="_blank">Comprar</a>
+  </section>
+
+  <section id="spoof" class="product-section">
+    <h2>Spoof Myrion</h2>
+    <div class="card">
+      <h3>1 Time</h3>
+      <p><strong>20€</strong></p>
+      <a class="buy-button" href="spoof-1time.html" target="_blank">Comprar</a>
+    </div>
+    <div class="card">
+      <h3>Lifetime</h3>
+      <p><strong>40€</strong></p>
+      <a class="buy-button" href="spoof-lifetime.html" target="_blank">Comprar</a>
+    </div>
+    <p>El spoofer más estable y seguro del mercado.</p>
+  </section>
+
+  <section id="payment" class="payment-section">
+    <h2>Métodos de Pago</h2>
+    <p>💰 Crypto | 💳 PayPal | 📲 Bizum | 💼 Skrill</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Myrion. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
